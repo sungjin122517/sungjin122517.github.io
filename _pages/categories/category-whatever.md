@@ -1,9 +1,9 @@
 ---
-title: "algorithm"
+title: "whatever"
 layout: category
-permalink: /categories/algorithm/
+permalink: /categories/whatever/
 author_profile: true
-taxonomy: algorithm
+taxonomy: whatever
 sidebar:
   nav: "categories"
 ---
