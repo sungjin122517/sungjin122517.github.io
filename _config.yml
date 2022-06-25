@@ -22,7 +22,7 @@ subtitle                 : # site tagline that appears below site title in masth
 name                     : "Jin"
 description              : "Jin's Devlog"
 url                      : "https://sungjin122517.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
+baseurl                  : "https://sungjin122517.github.io"
 repository               : "sungjin122517/sungjin122517.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
