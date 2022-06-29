@@ -213,3 +213,7 @@ Three ways of solving recurrences:
    2. If f(n) = Θ(n^c) where c = Log_b(a) then T(n) = Θ((n^c)Log(n)) 
    3. If f(n) = Ω(n^c) where c > Log_b(a) then T(n) = Θ(f(n))
    ```
+
+---
+
+## Amortized analysis
