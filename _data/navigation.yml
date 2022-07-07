@@ -18,5 +18,7 @@ categories:
     url: /categories/oop/
   - title: "algorithm"
     url: /categories/algorithm/
+  - title: "web"
+    url: /categories/web/
   - title: "whatever"
     url: /categories/whatever/
