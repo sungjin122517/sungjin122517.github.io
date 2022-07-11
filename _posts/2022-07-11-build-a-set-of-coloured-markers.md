@@ -126,11 +126,12 @@ h1 {
    * a percentage from 0 to 100 for saturation
    * a percentage from 0 to 100 for lightness
 
-**primary colors**: colors that, when combined, create pure white.
+**primary colors**: colors that, when combined, create pure white.  
 **secondary colors**: colors you get when you combine primary colors. They are:
 * `yellow` = red + green
 * `cyan` = green + blue
-* `magenta` = red + blue
+* `magenta` = red + blue  
+  
 **tertiary colors**: created by combining a primary with a nearby secondary color. They are:
 * `orange` = red + yellow = 2*red + green = rgb(255, 127, 0)
 * `spring green` = cyan + green = 2*green + blue = rgb(0, 255, 127)
