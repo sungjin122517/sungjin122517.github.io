@@ -17,7 +17,11 @@ last_modified_at: 2022-07-07
 ---
 
 ```html
-<html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CatPhotoApp</title>
+  </head>
   <body>
     <h1>CatPhotoApp</h1>
     <main>
@@ -58,13 +62,15 @@ last_modified_at: 2022-07-07
         <form action="https://freecatphotoapp.com/submit-cat-photo">
           <fieldset>
             <legend>Is your cat an indoor or outdoor cat?</legend>
-            <label><input id="indoor" type="radio" name="indoor-outdoor"> Indoor</label>
-            <label><input id="outdoor" type="radio" name="indoor-outdoor"> Outdoor</label>
+            <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked> Indoor</label>
+            <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label>
           </fieldset>
 
           <fieldset>
             <legend>What's your cat's personality?</legend>
-            <input id="loving" type="checkbox"> <label for="loving">Loving</label>
+            <input id="loving" type="checkbox" name="personality" value="loving" checked> <label for="loving">Loving</label>
+            <input id="lazy" type="checkbox" name="personality" value="lazy"> <label for="lazy">Lazy</label>
+            <input id="energetic" type="checkbox" name="personality" value="energetic"> <label for="energetic">Energetic</label>
           </fieldset>
 
           <input type="text" name="catphotourl" placeholder="cat photo URL" required>
@@ -72,6 +78,11 @@ last_modified_at: 2022-07-07
         </form>
       </section>    
     </main>
+    <footer>
+      <p>
+      No Copyright - <a href="https://www.freecodecamp.org">freeCodeCamp.org</a>
+      </p>
+    </footer>
   </body>
 </html>
 ```
@@ -97,10 +108,10 @@ anchor(`a`): enables link to another page.
 `ol`: ordered list (its list items are numbered when displayed.)  
 `li`: list item.
 
-`figure`: represents self-contained content and will allow you to associate an image with a caption.
+`figure`: represents self-contained content and will allow you to associate an image with a caption.  
 `figcaption`: add a caption to describe the image contained within the `figure` element.  
-`em`: emphasize the word (italic).  
-`strong`: indicate strong importance/urgent (bold).
+`em`: emphasize the word (**italic**).  
+`strong`: indicate strong importance/urgent (**bold**).
 
 `form`: collect information from users.  
 `input`: `self-closing tag`. Allows you several ways to collect data from a web form.  
@@ -111,10 +122,16 @@ anchor(`a`): enables link to another page.
 * `placeholder`: give people a hint about what kind of information to enter into an input.
 * `required`: prevent a user from submitting your form when required information is missing. **No value is set to it**.
 * `id`: identify specific HTML elements.
-* `value`
+* `value` (optional)
+* `checked`: make a checkbox checked or radio button selected **by default**. No value is set to it.
 
 `button`: create a clickable button. The **default behaviour** of clicking a form button without any attributes submits the form to the location specified in the form's `action` attribute.  
 `radio` button: used for questions where you want **only one answer** out of multiple options.  
 `label`: associate the text for an `input` element with the input element itself. From the example above, clicking the word `Indoor`  also selects the corresponding radio button.  
 `fieldset`: group related inputs and labels together in a web form. It is a **block-level** element, meaning that it appears on a new line.  
 `legend`: acts as a caption for the content in the `fieldset` element.
+
+Inside `head` element:
+* `title`: determines what browsers show in the title bar or tab for the page.
+
+`!DOCTYPE html`: ensures the browser tries to meet industry-wide specifications (업계 표준/규격).
