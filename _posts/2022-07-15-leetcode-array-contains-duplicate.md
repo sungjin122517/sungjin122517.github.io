@@ -89,7 +89,7 @@ bool containsDuplicate(vector<int>& nums) {
 
 
 ### 3. Use of adjacent_find
-std::adjacent_find: 정렬된 배열에서 동일한 인접 요소의 첫 번째 발생을 찾는다.  
+`std::adjacent_find`: 정렬된 배열에서 동일한 인접 요소의 첫 번째 발생을 찾는다.  
 중복이 있으면 첫 번째 중복 요소의 반복자를 반환한다. 없으면 범위 끝을 반환한다.  
 
 ```cpp
