@@ -16,7 +16,7 @@ date: 2022-07-20
 last_modified_at: 2022-07-20
 ---
 
-Topic: Dynamic programming
+Topic: Dynamic programming  
 Difficulty: Easy
 
 ### Question
