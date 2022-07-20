@@ -93,6 +93,7 @@ int coinChange(vector<int>& coins, int amount) {
                 int sub_result = table[i-*p];
                 // check whether the sub_result can be made with given coins
                 // && see if results can be minimized.
+                // 더하기 1을 해주는 이유는 iterator p가 가리키고 있는 coin을 갯수에 더해주기 위해서
                 if (sub_result != INT_MAX && sub_result+1 < table[i]) {
                     table[i]=sub_result+1;
                 }
