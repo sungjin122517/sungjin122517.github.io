@@ -16,7 +16,7 @@ date: 2022-07-21
 last_modified_at: 2022-07-21
 ---
 
-Topic: Dynamic programming
+Topic: Dynamic programming  
 Difficulty: Medium
 
 ### Question
@@ -133,7 +133,7 @@ int lengthOfLIS(vector<int>& nums) {
 ```
 
 runtime: 163 ms (상위 30%)  
-memory usage: 10.4 MB (상위 30%)
+memory usage: 10.4 MB (상위 30%)  
 time complexity: O(n^2)  
 
 문제 follow up에서 time complexity가 O(nlog n)인 알고리즘을 찾아보라고 했다. 난 못 찾아.
