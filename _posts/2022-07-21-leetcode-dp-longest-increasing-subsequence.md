@@ -148,10 +148,13 @@ int lengthOfLIS(vector<int>& nums) {
     int len = nums.size();
     for (int i=0; i<len; i++) {
         // lower_bound searches for nums[i] by binary search.
-        // if nums[i] doesn't exist in arr, p=nums[i]보다 큰 값 중에 가장 작은 값의 위치.
+        // if nums[i] doesn't exist in arr, p의 위치는 nums[i]보다 큰 값 중에 가장 작은 값을 가르킴.
         vector<int>::iterator p = lower_bound(arr.begin(), arr.end(), nums[i]);
+
         // p==nums.end() if all values of arr < nums[i]
         if (p==nums.end()) { arr.push_back(nums[i]); }
+        // replace *p with 자신보다 큰 값 중 가장 작은 값.
+        // 따라서 arr의 길이에는 변화가 없지만, 원소가 더 작은 값으로 대체되었으므로 더 큰 값을 원소로 가즈는 부분 배열보다는 항상 이득이다.
         else { *p = nums[i]; }
 
         return arr.size();
