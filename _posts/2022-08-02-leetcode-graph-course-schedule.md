@@ -1,3 +1,21 @@
+---
+title:  "(Leetcode) [Graph] Course schedule"
+excerpt: "find whether it is possible to finish all courses or not from given dependencies using DFS"
+
+categories:
+  - algorithm
+tags:
+  - [leetcode, graph, DFS, C++]
+
+permalink: /algorithm/leetcode_graph_course_schedule/
+
+toc: true
+toc_sticky: true
+ 
+date: 2022-08-02
+last_modified_at: 2022-08-02
+---
+
 ### Question
 대학교 수강신청을 예시로 든 문제이다.  
 int numCourses: number of courses you have to take  
