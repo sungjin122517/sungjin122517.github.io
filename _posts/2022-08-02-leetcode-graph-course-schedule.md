@@ -79,6 +79,8 @@ public:
 }
 ```
 
+![dfs-visualization](/assets/images/posts_img/algorithm/dfs-visualization.gif)
+
 <br>
 
 ### Solution
@@ -147,5 +149,5 @@ bool dfs(int course, unordered_map<int, vector<int>>& adjacencyList, vector<int>
 <br>
 
 ### References
-<https://www.geeksforgeeks.org/find-whether-it-is-possible-to-finish-all-tasks-or-not-from-given-dependencies/>
+<https://www.geeksforgeeks.org/find-whether-it-is-possible-to-finish-all-tasks-or-not-from-given-dependencies/>  
 <https://www.youtube.com/watch?v=EgI5nU9etnU>
