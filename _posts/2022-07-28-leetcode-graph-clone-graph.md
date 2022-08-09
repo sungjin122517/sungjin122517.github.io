@@ -1,6 +1,6 @@
 ---
-title:  "(Leetcode) [Graph] Clone graph"
-excerpt: "return a deep copy of a connected undirected graph"
+title:  "(Leetcode) [Graph] Clone graph, and BFS"
+excerpt: "return a deep copy of a connected undirected graph using BFS"
 
 categories:
   - algorithm
@@ -31,6 +31,25 @@ class Node {
 
 ### Solution
 ```cpp
+// Definition for a Node.
+class Node {
+public:
+    int val;
+    vector<Node*> neighbors;
+    Node() {
+        val = 0;
+        neighbors = vector<Node*>();
+    }
+    Node(int _val) {
+        val = _val;
+        neighbors = vector<Node*>();
+    }
+    Node(int _val, vector<Node*> _neighbors) {
+        val = _val;
+        neighbors = _neighbors;
+    }
+};
+
 Node* cloneGraph(Node* node) {
     if (node==nullptr)
         return nullptr;
@@ -51,8 +70,7 @@ Node* cloneGraph(Node* node) {
         q.pop();
         vector<Node*> v = u->neighbors;
         for (int i=0; i<v.size(); i++) {
-            if (copies[v[i]]==nullptr) {
-                // copy = new Node(v[i]->val, {});
+            if (copies[v[i]]==nullptr) {    // prevents duplicated copies of a node
                 copies[v[i]] = new Node(v[i]->val, {});
                 q.push(v[i]);
             }
