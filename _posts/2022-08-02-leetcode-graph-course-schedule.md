@@ -42,6 +42,11 @@ If there is a `back edge` (self-loop or node to one if its ancestors) present in
 DFS is an algorithm for <mark>traversing or searching tree or graph data structures</mark>.  
 Basic idea: start from the root/any arbiytrary node, mark the node and move to the adjacent unmarked node and continue this loop until there is no unmarked adjacent node.  
 
+DFS는 말 그대로 깊이 우선 탐색이다.   
+그래프 상에 존재하는 임의의 한 정점으로부터 연결되어 있는 한 정점으로만 나아간다라는 방법을 우선으로 선택한다. 연결할 수 있는 정점이 있을 때까지 계속 연결하다가가 더이상 연결되지 않은 정점이 없으면 바로 그 전 단계의 정점으로 돌아가서 연결할 수 있는 정점이 있는지 살펴본다.  
+자료구조는 `stack`을 이용한다.  
+<mark>Time Complexity</mark>: O(V+E), where V=number of vertices, E=number of edges.  
+
 #### Algorithm of DFS
 Use of recursive function.  
 Required features: index of the node and a visited array.
