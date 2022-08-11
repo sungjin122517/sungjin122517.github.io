@@ -1,6 +1,6 @@
 ---
 title:  "(Leetcode) [Graph] Pacific Atlantic water flow"
-excerpt: "find whether it is possible to finish all courses or not from given dependencies using DFS"
+excerpt: "find the coordinates of the cells that are reachable to both Pacific and Atlantic Ocean using BFS"
 
 categories:
   - algorithm
