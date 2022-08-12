@@ -57,7 +57,7 @@ int main()
 }
 ```
 
-If there are no user-defined constructors in the definition of `class X`, <mark>the **compiler** will generate the following default constructor</mark>:  
+If there are no user-defined constructors in the definition of `class X`, <mark>the compiler will generate the following default constructor</mark>:  
     `X::X() {}`   -> this creates an object X with enough space for its data members.
 
 ```cpp
@@ -250,12 +250,12 @@ class Word
 ## Garbage Collection & Destructor
 
 ### Memory usage on the runtime stack and heap
-<mark>**Local variables**</mark>
+**Local variables**
 - They are constructed when they are defined in a function/block on the `runtime stack`.
 - When the function/block terminates, the local variables inside and the call-by-value arguments will be `destructed` and removed on the `runtime stack`.
 - Both construction and destruction of variables are done `automatically` by the compiler by calling the appropriate constructors and destructors.
 
-<mark>**Dynamically allocated memory**<mark>
+**Dynamically allocated memory**
 - It `remains` after function/block terminates, and it is the user's reponsibilty to return it back to the heap for recycling using `delete`; otherwise, it will stay until the program finishes.
 - `Garbage`: a piece of storage that is part of a running program but there are no more references to it. Memory leak occurs when there is garbage.
 
@@ -311,10 +311,10 @@ class Word
 
 ---
 ## Order of Construction and Destruction
-"has" relationship:
+**"has" relationship**:
 - If an object A has an object B as a data member -> `A has a B`.
 
-"owns" relationship:
+**"owns" relationship**:
 - If an object A only has a `pointer` pointing to B -> `A owns a B`.
 - If B has a memory on the heap, A is responsible for B's destruction.
 
