@@ -98,5 +98,5 @@ Linked list에서 cycle을 detect하려면 hash map을 이용해라. 중복되�
 <br>
 
 ### Reference
-<https://www.geeksforgeeks.org/detect-loop-in-a-linked-list/>
+<https://www.geeksforgeeks.org/detect-loop-in-a-linked-list/>  
 <https://www.geeksforgeeks.org/unordered_set-in-cpp-stl/>
