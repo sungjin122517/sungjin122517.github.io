@@ -80,5 +80,37 @@ ListNode* mergeTwoLists(ListNode* list1, ListNode* list2) {
 
 <br>
 
+### Alternate solution: Recursion
+Merge two sorted linked list는 recursion 코드로 쓰기 아주 간결한 문제이다. 첫번째에 사용한 iterative 방법보다 훨씬 간단하다.  
+대신 runtime은 더 걸린다.
+
+```cpp
+ListNode* mergeTwoLists(ListNode* list1, ListNode* list2) {
+    ListNode* result = nullptr;
+
+    if (list1 == nullptr)
+        return list2;
+    else if (list2 == nullptr)
+        return list1;
+
+    if (list1->val <= list2->val) {
+        result = list1;
+        result->next = mergeTwoLists(list1->next, list2);
+    }
+    else {
+        result = list2;
+        result->next = mergeTwoLists(list1, list2->next);
+    }
+
+    return result;
+}
+```
+
 ### Summary
-In order to merge two sorted lists, first create a dummy node, then extract the nodes from two lists according to their value and add them to the end (tail).
+In order to merge two sorted lists, first create a dummy node, then extract the nodes from two lists according to their value and add them to the end (tail).  
+Recursion would be the another method. It provides more concise code.
+
+<br>
+
+### Reference
+<https://www.geeksforgeeks.org/merge-two-sorted-linked-lists/#:~:text=Write%20a%20SortedMerge()%20function,should%20return%20the%20new%20list.>
