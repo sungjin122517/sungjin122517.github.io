@@ -106,7 +106,7 @@ ListNode* mergeTwoLists(ListNode* list1, ListNode* list2) {
 }
 ```
 
-![merge-two-sorted-lists.jpg](/assets/images/posts_img/algorithm/merge-two-sorted-lists.jpg)
+![merge-two-sorted-lists-recursion.jpg](/assets/images/posts_img/algorithm/merge-two-sorted-lists-recursion.jpg)
 
 ### Summary
 In order to merge two sorted lists, first create a dummy node, then extract the nodes from two lists according to their value and add them to the end (tail).  
