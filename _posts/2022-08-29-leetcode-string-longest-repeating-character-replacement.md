@@ -16,7 +16,7 @@ date: 2022-08-29
 last_modified_at: 2022-08-29
 ---
 
-Topic: String
+Topic: String  
 Difficulty: Medium
 
 ---
