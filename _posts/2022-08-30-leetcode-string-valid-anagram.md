@@ -1,3 +1,21 @@
+---
+title:  "(Leetcode) [String] Valid anagram"
+excerpt: "Determine whether a string is an anagram of another string"
+
+categories:
+  - algorithm
+tags:
+  - [leetcode, string, C++]
+
+permalink: /algorithm/leetcode-string-valid-anagram/
+
+toc: true
+toc_sticky: true
+ 
+date: 2022-08-30
+last_modified_at: 2022-08-30
+---
+
 Topic: String  
 Difficulty: Easy
 
