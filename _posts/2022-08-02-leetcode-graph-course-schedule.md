@@ -3,11 +3,11 @@ title:  "(Leetcode) [Graph] Course schedule"
 excerpt: "find whether it is possible to finish all courses or not from given dependencies using DFS"
 
 categories:
-  - algorithm
+  - leetcode
 tags:
   - [leetcode, graph, DFS, C++]
 
-permalink: /algorithm/leetcode_graph_course_schedule/
+permalink: /leetcode/leetcode_graph_course_schedule/
 
 toc: true
 toc_sticky: true

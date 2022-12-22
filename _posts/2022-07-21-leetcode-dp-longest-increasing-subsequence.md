@@ -3,11 +3,11 @@ title:  "(Leetcode) [Dynamic programming] Longest increasing subsequence"
 excerpt: "find longest increasing subsequence of given array"
 
 categories:
-  - algorithm
+  - leetcode
 tags:
   - [leetcode, dynamic programming, recursion, C++]
 
-permalink: /algorithm/leetcode_dp_longest_increasing_subsequence/
+permalink: /leetcode/leetcode_dp_longest_increasing_subsequence/
 
 toc: true
 toc_sticky: true

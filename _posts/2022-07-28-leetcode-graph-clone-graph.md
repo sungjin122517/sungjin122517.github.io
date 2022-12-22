@@ -7,7 +7,7 @@ categories:
 tags:
   - [leetcode, graph, BFS, C++]
 
-permalink: /algorithm/leetcode_graph_clone_graph/
+permalink: /leetcode/leetcode_graph_clone_graph/
 
 toc: true
 toc_sticky: true

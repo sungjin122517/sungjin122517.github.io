@@ -3,11 +3,11 @@ title:  "(Leetcode) [String] Longest repeating character replacement"
 excerpt: "Given a string s and integer k, find the maximum length substring having all same characters after k changes."
 
 categories:
-  - algorithm
+  - leetcode
 tags:
   - [leetcode, string, C++, window slicing]
 
-permalink: /algorithm/leetcode-string-longest-repeating-character-replacement/
+permalink: /leetcode/leetcode-string-longest-repeating-character-replacement/
 
 toc: true
 toc_sticky: true

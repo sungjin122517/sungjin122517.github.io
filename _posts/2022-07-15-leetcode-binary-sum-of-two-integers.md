@@ -3,11 +3,11 @@ title:  "(Leetcode) [Binary]: Sum of two integers"
 excerpt: "solution for a leetcode binary question"
 
 categories:
-  - algorithm
+  - leetcode
 tags:
   - [leetcode, binary, C++]
 
-permalink: /algorithm/leetcode_binary_sum_of_two_integers/
+permalink: /leetcode/leetcode_binary_sum_of_two_integers/
 
 toc: true
 toc_sticky: true

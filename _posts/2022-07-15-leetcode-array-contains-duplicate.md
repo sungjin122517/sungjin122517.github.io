@@ -3,11 +3,11 @@ title:  "(Leetcode) [Array]: Contains duplicate"
 excerpt: "solution for a leetcode array question"
 
 categories:
-  - algorithm
+  - leetcode
 tags:
   - [leetcode, array, C++]
 
-permalink: /algorithm/leetcode_array_contains_duplicate/
+permalink: /leetcode/leetcode_array_contains_duplicate/
 
 toc: true
 toc_sticky: true

@@ -3,11 +3,11 @@ title:  "(Leetcode) [Linked List] Linked list cycle, and unordered set"
 excerpt: "Detect loop in a linked list using unordered set"
 
 categories:
-  - algorithm
+  - leetcode
 tags:
   - [leetcode, linked list, C++, hashmap, unordered_set]
 
-permalink: /algorithm/leetcode-linked-list-linked-list-cycle/
+permalink: /leetcode/leetcode-linked-list-linked-list-cycle/
 
 toc: true
 toc_sticky: true

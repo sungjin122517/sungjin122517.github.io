@@ -3,11 +3,11 @@ title:  "(Leetcode) [Binary]: Counting bits"
 excerpt: "count the number of bits of 1"
 
 categories:
-  - algorithm
+  - leetcode
 tags:
   - [leetcode, binary, C++]
 
-permalink: /algorithm/leetcode_binary_counting_bits/
+permalink: /leetcode/leetcode_binary_counting_bits/
 
 toc: true
 toc_sticky: true

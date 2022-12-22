@@ -3,11 +3,11 @@ title:  "(Leetcode) [String] Longest substring without repeating characters"
 excerpt: "Given a string s, find the length of the longest substring without repeating characters."
 
 categories:
-  - algorithm
+  - leetcode
 tags:
   - [leetcode, string, C++]
 
-permalink: /algorithm/leetcode-string-longest-substring-without-repeating-chars/
+permalink: /leetcode/leetcode-string-longest-substring-without-repeating-chars/
 
 toc: true
 toc_sticky: true

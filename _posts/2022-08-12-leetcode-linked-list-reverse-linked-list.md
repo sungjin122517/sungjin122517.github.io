@@ -3,11 +3,11 @@ title:  "(Leetcode) [Linked List] Reverse linked list"
 excerpt: "Given the head of a singly linked list, reverse the list, and return the reversed list."
 
 categories:
-  - algorithm
+  - leetcode
 tags:
   - [leetcode, linked list, C++]
 
-permalink: /algorithm/leetcode-linked-list-reverse-linked-list/
+permalink: /leetcode/leetcode-linked-list-reverse-linked-list/
 
 toc: true
 toc_sticky: true

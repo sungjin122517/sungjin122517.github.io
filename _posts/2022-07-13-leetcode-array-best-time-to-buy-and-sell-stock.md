@@ -3,11 +3,11 @@ title:  "(Leetcode) [Array]: Best time to buy and sell stock"
 excerpt: "solution for a leetcode array question"
 
 categories:
-  - algorithm
+  - leetcode
 tags:
   - [leetcode, array, C++]
 
-permalink: /algorithm/leetcode_array_best_time_to_buy_and_sell_stock/
+permalink: /leetcode/leetcode_array_best_time_to_buy_and_sell_stock/
 
 toc: true
 toc_sticky: true

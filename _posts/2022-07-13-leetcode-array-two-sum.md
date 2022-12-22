@@ -3,11 +3,11 @@ title:  "(Leetcode) [Array]: Two sum"
 excerpt: "solution for a leetcode array question"
 
 categories:
-  - algorithm
+  - leetcode
 tags:
   - [leetcode, array, C++]
 
-permalink: /algorithm/leetcode_array_two_sum/
+permalink: /leetcode/leetcode_array_two_sum/
 
 toc: true
 toc_sticky: true

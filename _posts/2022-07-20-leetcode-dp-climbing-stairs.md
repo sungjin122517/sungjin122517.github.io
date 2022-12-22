@@ -3,11 +3,11 @@ title:  "(Leetcode) [Dynamic programming]: Climbing stairs"
 excerpt: "count ways to reach the n'th stair by using dynamic programming"
 
 categories:
-  - algorithm
+  - leetcode
 tags:
   - [leetcode, dynamic programming, C++]
 
-permalink: /algorithm/leetcode_dp_climbing_stairs/
+permalink: /leetcode/leetcode_dp_climbing_stairs/
 
 toc: true
 toc_sticky: true

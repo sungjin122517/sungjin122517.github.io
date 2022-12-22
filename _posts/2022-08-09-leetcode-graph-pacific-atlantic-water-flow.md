@@ -3,11 +3,11 @@ title:  "(Leetcode) [Graph] Pacific Atlantic water flow"
 excerpt: "find the coordinates of the cells that are reachable to both Pacific and Atlantic Ocean using BFS"
 
 categories:
-  - algorithm
+  - leetcode
 tags:
   - [leetcode, graph, BFS, C++]
 
-permalink: /algorithm/leetcode-graph-pacific-atlantic-water-flow/
+permalink: /leetcode/leetcode-graph-pacific-atlantic-water-flow/
 
 toc: true
 toc_sticky: true

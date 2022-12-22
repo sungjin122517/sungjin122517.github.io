@@ -3,11 +3,11 @@ title:  "(Leetcode) [Dynamic programming]: Coin change"
 excerpt: "find minimum number of coins that make a given value"
 
 categories:
-  - algorithm
+  - leetcode
 tags:
   - [leetcode, dynamic programming, recursion, C++]
 
-permalink: /algorithm/leetcode_dp_coin_change/
+permalink: /leetcode/leetcode_dp_coin_change/
 
 toc: true
 toc_sticky: true

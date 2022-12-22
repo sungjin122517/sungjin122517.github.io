@@ -16,8 +16,8 @@ main:
 categories:
   - title: "object-oriented programming (C++)"
     url: /categories/oop/
-  - title: "algorithm"
-    url: /categories/algorithm/
+  - title: "leetcode"
+    url: /categories/leetcode/
   - title: "web"
     url: /categories/web/
   - title: "whatever"

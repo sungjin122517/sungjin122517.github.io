@@ -3,11 +3,11 @@ title:  "(Leetcode) [Tree] Maximum depth of binary tree"
 excerpt: "Given the root of a binary tree, return its maximum depth"
 
 categories:
-  - algorithm
+  - leetcode
 tags:
   - [leetcode, tree, C++, recursion, bfs]
 
-permalink: /algorithm/leetcode-tree-max-depth-of-binary-tree/
+permalink: /leetcode/leetcode-tree-max-depth-of-binary-tree/
 
 toc: true
 toc_sticky: true
