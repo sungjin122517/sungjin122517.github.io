@@ -1,9 +1,9 @@
 ---
-title: "algorithm"
+title: "leetcode"
 layout: category
-permalink: /categories/algorithm/
+permalink: /categories/leetcode/
 author_profile: true
-taxonomy: algorithm
+taxonomy: leetcode
 sidebar:
   nav: "categories"
 ---
