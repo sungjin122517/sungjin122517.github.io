@@ -28,7 +28,7 @@ DP 문제.
 삼각형의 각 층을 갯수에 맞춰서 1로 초기화한다.  
 전 층의 숫자들을 계산해서 현재 층의 vector element들을 업데이트 시켜준다.  
 
-time complexity: O(N^2)
+time complexity: O(N^2)  
 space complexity: O(N)
 
 ---
